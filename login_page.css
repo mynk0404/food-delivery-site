@@ -1,0 +1,40 @@
+body{
+    background-image: url("background\ pic3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    width: 300px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    border: 1px;
+    border-style: outset;
+    border-radius: 5px;
+    background-image: url("signup.jpg");
+}
+.transbutt{
+    transition: 0.5s;
+    padding: 14px;
+    border-radius: 8px;
+    border: solid;
+    background: none;
+}
+.transbutt:hover{
+    cursor: pointer;
+    background: rgb(232, 118, 118);
+    border-radius: 8px;
+}
+.login h1{
+    color: rgb(160, 7, 84);
+}
+.loginbox{
+    text-align: center;
+    background: none;
+    border-radius: 8px;
+    padding: 7px;
+}
+.loginbox:hover
+{
+    border-radius: 8px;
+}

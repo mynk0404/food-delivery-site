@@ -1,0 +1,213 @@
+body{
+    background-image: url("images/background2.jpg") ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+}
+.navbar ul li a:hover{
+    color: rgba(0, 0, 0, 0.89);
+    background-color: #ffffff;
+    border-radius: 8px;
+    opacity: inherit;
+
+}
+.col2 {
+    background: #000000;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border: 6px;
+    border-radius: 10px;
+    width: 360px;
+    height: 300px;
+    margin: 45px;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 8px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    border: rgb(0, 0, 0) ;
+    color: white;
+}
+
+.col2:hover {
+    transform: translateY(-10px);
+    width: 400px;
+    height: 340px;
+}
+
+#biryani {
+    background-image: url("images/biryani/chicken-hyderabadi-biryani-01.jpg");
+    background-size: cover;
+}
+#biryani:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#beverages {
+    background-image: url("images/beverages/istockphoto-926990564-612x612.jpg");
+    background-size: cover;
+
+}
+#beverages:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#chinese {
+    background-image: url("images/chinese/chinese_noodles.jpg");
+    background-size: cover;
+}
+#chinese:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#desert {
+    background-image: url("images/desert/1200px-Desserts.jpg");
+    background-size: cover;
+}
+#desert:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#parathas {
+    background-image: url("images/parathas\ and\ rotis/IMG_7976_.jpg");
+    background-size: cover;
+}
+#parathas:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#rolls{
+    background-image: url("images/rolls/Chicken-Roll.jpg");
+    background-size: cover;
+}
+#rolls:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#south{
+    background-image: url("images/south\ indian/south-indian.jpg");
+    background-size: cover;
+}
+#south:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#curry{
+    background-image: url("images/veg\ curry/andhra-chicken-gravy.jpg") ;
+    background-size: cover;
+}
+#curry:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#pizza{
+    background-image: url("images/pizza.jpg") ;
+    background-size: cover;
+}
+#pizza:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#sandwich{
+    background-image: url("images/sandwich.jpg") ;
+    background-size: cover;
+}
+#sandwich:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#pasta{
+    background-image: url("images/pasta1.jpg") ;
+    background-size: cover;
+}
+#pasta:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+#burger{
+    background-image: url("images/burger.jpg") ;
+    background-size: cover;
+}
+#burger:hover {
+    background-image: none;
+    background-color: bisque;
+    color: black;
+}
+.counter{
+    width: 40px;
+    margin: 4px;
+}
+.item{
+    text-align: center;
+    font-size: medium;
+}
+.quantity{
+    margin: 4px;
+}
+.location{
+    text-align: center;
+    font: 100;
+    margin: 100 auto 0;
+    background: rgb(255, 255, 255);
+    color: rgb(59, 118, 227);
+    padding: 10px;
+    width: 300px;
+    opacity: 0.9;
+    border-radius: 30px;
+}
+.location select{
+    border-radius: 10px;
+    width: 200px;
+    font-size: medium;
+    border: 4px solid;
+    color: orangered;
+    padding: 2px;
+}
+.obutton{
+    font-family: sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.obutton button{
+    border-radius: 10px;
+    width: 150px;
+    transition: 0.5s;
+}
+.obutton button:hover{
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.9;
+}
